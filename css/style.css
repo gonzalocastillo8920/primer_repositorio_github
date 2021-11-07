@@ -17,3 +17,12 @@ p {
     text-align: justify;
     margin: 15px;
 }
+main {
+    width: 800px;
+    display: flex;
+    justify-content:space-evenly;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
