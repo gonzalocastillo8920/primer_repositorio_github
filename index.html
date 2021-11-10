@@ -5,25 +5,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <meta name="keywords" content="Prestamos, Ahorro, Credito, Banco, Dinero, Financiera">
+    <title>Banco MDK</title>
+    <meta name="description" content="Banco MDK, haciendo realidad tus sueños. Somos la mejor opción para alcanzar eso que tanto querés.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/destino.css">
 </head>
 
-<body>
-    <div>
-        <h1>PROBANDO GIT EN HTML</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit perspiciatis debitis sapiente officiis
-            molestiae inventore quas cumque, consequuntur rem numquam iste quisquam sunt, deleniti corrupti, natus
-            quaerat dolor modi accusamus?</p>
-    </div>
-    <main>
-        <img src="imagenes/btn01.png" alt="a">
-        <img src="imagenes/btn02.png" alt="a">
-        <img src="imagenes/btn03.png" alt="a">
-        <img src="imagenes/btn04.png" alt="a">
-        <img src="imagenes/btn05.png" alt="a">
-        <img src="imagenes/btn06.png" alt="a">
+<body class="grid_areas fondo">
+    <header class="gradiente_1 header">
+        <div class="encabezado">
+            <img class="encabezado__logo animacion_1" src="image/balanza.svg" alt="logotipo banco MDK">
+            <h1>Banco MDK</h1>
+        </div>
+    </header>
+    <nav>
+        <div>
+            <ul>
+                <li><a class="boton_nav" href="pages/prestamos.html">PRESTAMOS</a></li>
+                <li><a class="boton_nav" href="pages/ahorro.html">AHORRO</a></li>
+                <li><a class="boton_nav" href="pages/cuentas_vip.html">CUENTAS PREFERENCIALES</a></li>
+                <li><a class="boton_nav" href="pages/plan_hogares.html">PLAN HOGARES</a></li>
+                <li><a class="boton_nav" href="pages/tarjetas_de_credito.html">TARJETAS DE CREDITO</a></li>
+                <li><a class="boton_nav" href="pages/contacto.html">CONTACTO</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="contenido">
+        <div id="publicidad" class="contenido__publicidad animate__animated animate__fadeInLeft">
+            <img class="banner_publicidad animate__animated animate__fadeInLeft" src="image/banner publicidad.jpg" alt="publicidad Banco MDK">
+            <img class="banner_publicidad" src="image/banca-movil.jpg" alt="publicidad Banca movil">
+            <img class="banner_publicidad animate__animated animate__fadeInLeft" src="image/istockphoto-1053229374-2048x2048.jpg" alt="publicidad hot 50%">
+        </div>
+        <div class="botonera cursiva gradiente_2 contenido__botones">
+            <div class="botonera__boton expandir_botones"><a class="botonera__boton--estilo" href="#">ATENCION AL CLIENTE</a></div>
+            <div class="botonera__boton expandir_botones"><a class="botonera__boton--estilo" href="#">APP PARA IOS</a></div>
+            <div class="botonera__boton expandir_botones"><a class="botonera__boton--estilo" href="#">APP PARA ANDROID</a></div>
+            <div class="botonera__boton expandir_botones"><a class="botonera__boton--estilo" href="#">RECARGA CELULAR</a></div>
+            <div class="botonera__boton expandir_botones"><a class="botonera__boton--estilo" href="#">COMPRADOR FRECUENTE</a></div>
+            <div class="botonera__boton expandir_botones"><a class="botonera__boton--estilo" href="#">SEGURIDAD EN LA WEB</a></div>
+        </div>
     </main>
+    <footer class="footer">
+        <div class="footer__contacto">
+            <div><p class="formularios negrita white cursiva">SECCIONES:</p>
+                <ul>
+                    <li><a class="footer__enlaces boton_nav" href="#">INICIO</a></li>
+                    <li><a class="footer__enlaces boton_nav" href="#">EVENTOS</a></li>
+                    <li><a class="footer__enlaces boton_nav" href="#">SOBRE NOSOTROS</a></li>
+                    <li><a class="footer__enlaces boton_nav" href="#">PREGUNTAS FRECUENTES</a></li>
+                </ul>
+            </div>
+            <div><p class="formularios negrita white cursiva">MAS INFORMACION:</p>
+                <ul>
+                    <li><a class="footer__enlaces boton_nav" href="#">PRIVACIDAD</a></li>
+                    <li><a class="footer__enlaces boton_nav" href="#">POLITICA DEL SITIO</a></li>
+                    <li><a class="footer__enlaces boton_nav" href="#">AYUDA Y SUGERENCIAS</a></li>
+                </ul>
+            </div>
+            <div><p class="formularios negrita white cursiva">MDK Uruguay:</p>
+                <ul>
+                    <li><p class="p_color">Bulevar Artigas 2569</p></li>
+                    <li><p class="p_color">Montevideo, Uruguay</p></li>
+                    <li><p class="p_color">Telefono: +598 2600 1234</p></li>
+                    <li><p class="p_color">Fax: 0312345678</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__end">
+            <p>Banco MDK S.A. es supervisado por el Banco Central, por más información acceda a www.bc.com.uy</p>
+            <p>(c) 2021 - Todos los derechos reservados. Términos y condiciones de uso del sitio</p>
+            <p>Infórmese sobre la Garantía de Depósitos, en su institución de intermediación financiera.</p>
+        </div>
+    </footer>
 </body>
-
 </html>

@@ -1,0 +1,29 @@
+.header {
+    grid-area: cabeza;
+    display: flex;
+    align-items: center;
+}
+.encabezado {
+    font-size: 25px;
+    font-weight: bold;
+    list-style-type: none;
+    padding-left: 5px;
+}
+#retornar {
+    margin: 0px 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#retornar :hover {
+    color: white;
+}
+h1 {
+    color: white;
+    display: inline;
+    font-size: 80px;
+}
+.encabezado__logo {
+    width: 70px;
+    margin-top: 10px;
+    display: inline;
+}

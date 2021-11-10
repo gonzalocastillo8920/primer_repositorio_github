@@ -1,0 +1,9 @@
+.contenido__publicidad {
+    grid-area: publicidad;    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.banner_publicidad {
+    width: 800px;
+}
